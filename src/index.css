@@ -5,29 +5,28 @@
 }
 
 :root {
-  /* Proton-inspired light palette */
-  --color-bg: #ffffff;
-  --color-bg-elevated: #f8f7fa;
-  --color-surface: #f0eef4;
-  --color-surface-hover: #e8e5ef;
-  --color-border: #dedae6;
-  --color-border-subtle: #eeecf2;
+  /* Warm neutral palette */
+  --color-bg: #faf9f7;
+  --color-bg-elevated: #f3f1ee;
+  --color-surface: #eae7e2;
+  --color-surface-hover: #dfdbd5;
+  --color-border: #d6d2cc;
+  --color-border-subtle: #eceae6;
 
-  /* Proton purple palette */
-  --color-primary: #6d4aff;
-  --color-primary-dark: #5b38e8;
-  --color-primary-light: #8a6dff;
-  --color-primary-subtle: #6d4aff;
-  --color-primary-faint: rgba(109, 74, 255, 0.06);
-  --color-primary-glow: rgba(109, 74, 255, 0.1);
-  --color-gradient: linear-gradient(135deg, #6d4aff 0%, #7c5cff 50%, #505bf0 100%);
-  --color-gradient-text: linear-gradient(135deg, #6d4aff 0%, #8a2bff 50%, #505bf0 100%);
-  --color-gradient-subtle: linear-gradient(135deg, rgba(109, 74, 255, 0.08) 0%, rgba(80, 91, 240, 0.04) 100%);
+  /* Accent — warm charcoal */
+  --color-primary: #3d3831;
+  --color-primary-dark: #2c2722;
+  --color-primary-light: #5a5349;
+  --color-primary-subtle: #3d3831;
+  --color-primary-faint: rgba(61, 56, 49, 0.06);
+  --color-primary-glow: rgba(61, 56, 49, 0.1);
+  --color-gradient: #3d3831;
+  --color-gradient-text: #3d3831;
 
   /* Text */
-  --color-text: #1b1340;
-  --color-text-secondary: #4a4261;
-  --color-text-muted: #8a85a0;
+  --color-text: #2c2722;
+  --color-text-secondary: #5a5349;
+  --color-text-muted: #948d83;
 
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -50,11 +49,11 @@
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.08);
-  --shadow-purple: 0 4px 20px rgba(109, 74, 255, 0.15);
-  --shadow-purple-lg: 0 8px 36px rgba(109, 74, 255, 0.22);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.07);
+  --shadow-accent: 0 4px 20px rgba(61, 56, 49, 0.1);
+  --shadow-accent-lg: 0 8px 36px rgba(61, 56, 49, 0.14);
 
   /* Transitions */
   --transition-fast: 0.15s ease;
@@ -87,7 +86,7 @@ img {
 
 ::selection {
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-bg);
 }
 
 .container {

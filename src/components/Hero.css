@@ -1,5 +1,5 @@
 .hero {
-  min-height: 100vh;
+  min-height: calc(100vh - 56px);
   display: flex;
   align-items: center;
   padding: var(--space-3xl) 0;
@@ -13,7 +13,7 @@
   right: -10%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(109, 74, 255, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(61, 56, 49, 0.04) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -29,9 +29,9 @@
   gap: 0.5rem;
   font-size: 0.8125rem;
   font-weight: 500;
-  color: var(--color-primary);
-  background: var(--color-primary-faint);
-  border: 1px solid rgba(109, 74, 255, 0.12);
+  color: var(--color-text-secondary);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
   padding: 0.5rem 1rem;
   border-radius: var(--radius-full);
   margin-bottom: var(--space-2xl);
@@ -41,8 +41,8 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #1ea85a;
-  box-shadow: 0 0 8px rgba(30, 168, 90, 0.4);
+  background: #5a9a6e;
+  box-shadow: 0 0 8px rgba(90, 154, 110, 0.4);
   animation: pulse 2s ease infinite;
 }
 
@@ -60,10 +60,7 @@
 }
 
 .hero-name-accent {
-  background: var(--color-gradient-text);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-text-muted);
 }
 
 .hero-title {
@@ -105,14 +102,15 @@
 }
 
 .btn-primary {
-  background: var(--color-gradient);
-  color: #fff;
-  box-shadow: var(--shadow-purple);
+  background: var(--color-primary);
+  color: var(--color-bg);
+  box-shadow: var(--shadow-accent);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-purple-lg);
+  box-shadow: var(--shadow-accent-lg);
+  background: var(--color-primary-dark);
 }
 
 .btn-secondary {
@@ -124,7 +122,6 @@
 .btn-secondary:hover {
   border-color: var(--color-primary);
   background-color: var(--color-primary-faint);
-  color: var(--color-primary);
 }
 
 @media (max-width: 480px) {

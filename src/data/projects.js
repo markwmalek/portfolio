@@ -4,8 +4,8 @@ export const projects = [
     slug: 'integrating-localization-into-design-systems',
     title: 'Integrating Localization Into Design Systems',
     category: 'Design System',
-    thumbnail: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1747340524485-Q8ELE8DNWGWIJW5ZXTEA/language-groups.png',
-    heroImage: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1747340524485-Q8ELE8DNWGWIJW5ZXTEA/language-groups.png',
+    thumbnail: '/images/projects/localization-hero.png',
+    heroImage: '/images/projects/localization-hero.png',
     date: 'May 11, 2025',
     role: 'Design System Lead',
     collaborators: 'Co-authored with colleague',
@@ -31,8 +31,8 @@ export const projects = [
     slug: 'refactoring-design-system-tokens',
     title: 'Refactoring Design System Tokens for a Multi-Dimensional Future',
     category: 'Design System / Product Design',
-    thumbnail: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1720549508826-MXBB95H7IO88NZLK7GU7/Slide+16_9+-+1.png',
-    heroImage: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1720549508826-MXBB95H7IO88NZLK7GU7/Slide+16_9+-+1.png',
+    thumbnail: '/images/projects/tokens-refactoring-hero.png',
+    heroImage: '/images/projects/tokens-refactoring-hero.png',
     date: 'July 9, 2024',
     role: 'Design System Lead',
     tools: 'Figma, Design Tokens, JSON',
@@ -57,8 +57,8 @@ export const projects = [
     slug: 'refactoring-token-names',
     title: 'Refactoring Token Names for Seamless Design System Maintenance',
     category: 'Design System / Product Design',
-    thumbnail: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1692283619215-J80UX69VVTLOC86YB048/Token+Refactoring+Hero.png',
-    heroImage: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1692283619215-J80UX69VVTLOC86YB048/Token+Refactoring+Hero.png',
+    thumbnail: '/images/projects/token-names-hero.png',
+    heroImage: '/images/projects/token-names-hero.png',
     date: 'August 17, 2023',
     role: 'Design System Lead',
     tools: 'Figma, Style Dictionary, JSON',
@@ -83,8 +83,8 @@ export const projects = [
     slug: 'visual-design-process',
     title: 'A Voyage Through the Visual Design Process',
     category: 'Product Design / Design System',
-    thumbnail: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1691892911188-6PHNBJNIH4MLN7WGB17J/Process+Hero.png',
-    heroImage: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/2607a6aa-9a8b-4632-afc7-bf1b12cbf22e/Process+Hero.png',
+    thumbnail: '/images/projects/visual-process-thumb.png',
+    heroImage: '/images/projects/visual-process-hero.png',
     date: 'March 28, 2023',
     role: 'Visual Designer',
     collaborators: 'Christina Rae',
@@ -103,7 +103,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/99109f9d-0380-4334-9b06-49184f4aa337/Mockup+content+%285120+px+x+3390+px%29.png',
+        url: '/images/projects/visual-process-mockup1.png',
         alt: 'Design process diagram'
       },
       {
@@ -118,7 +118,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/a10982e5-1204-4430-834d-c29a2fddb40f/Mockup+content+%285120+px+x+3390+px%29-3.png',
+        url: '/images/projects/visual-process-survey.png',
         alt: 'Survey insights visualization'
       },
       {
@@ -133,8 +133,8 @@ export const projects = [
     slug: 'sas-developer-portal',
     title: 'SAS Developer Portal',
     category: 'Web Design',
-    thumbnail: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1691520720235-LDS7WUAUFFU6XL76ZU5M/Dev+Portal+Hero+%281%29.png',
-    heroImage: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/b32ca1c9-b8fa-4064-b832-650e9e90962f/Dev+Portal+00.png',
+    thumbnail: '/images/projects/dev-portal-thumb.png',
+    heroImage: '/images/projects/dev-portal-hero.png',
     date: 'March 10, 2022',
     role: 'Visual Designer',
     collaborators: 'Cheryl Coyle (UX Designer)',
@@ -148,7 +148,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/44e82f73-969f-4658-bd8e-75e72f96c291/Screenshot+2023-08-10+at+12.35.39%E2%80%AFAM.png',
+        url: '/images/projects/dev-portal-homepage.png',
         alt: 'Developer Portal homepage'
       },
       {
@@ -158,7 +158,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/2c322196-e1e5-448f-a997-19591ec09889/Screenshot+2023-08-10+at+12.36.38%E2%80%AFAM.png',
+        url: '/images/projects/dev-portal-api.png',
         alt: 'API documentation page'
       },
       {
@@ -168,7 +168,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/abe0d5c7-1667-4df7-bfaf-e12c128fb76b/Screenshot+2023-08-10+at+12.37.20%E2%80%AFAM.png',
+        url: '/images/projects/dev-portal-tutorials.png',
         alt: 'Tutorials section'
       },
       {
@@ -178,17 +178,17 @@ export const projects = [
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/b3e76864-b64e-4242-ae55-c3284d2cd133/Dev+Portal+01.png',
+        url: '/images/projects/dev-portal-mockup1.png',
         alt: 'Developer Portal design mockup'
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/bde2fd0f-fff9-4f87-83e4-0df89f5a32c1/Dev+Portal+02.png',
+        url: '/images/projects/dev-portal-mockup2.png',
         alt: 'Code examples section'
       },
       {
         type: 'image',
-        url: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/90f71a36-aa33-42ca-9ee4-27d9ba3d9d0c/Dev+Portal+03.png',
+        url: '/images/projects/dev-portal-mockup3.png',
         alt: 'SDK documentation'
       }
     ]
@@ -198,8 +198,8 @@ export const projects = [
     slug: 'data-visualization-website',
     title: 'Data Visualization Website',
     category: 'Web Design / Development',
-    thumbnail: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1691893846628-72JP2MCCUOWE291595P7/Beautiful+Reports+Hero.png',
-    heroImage: 'https://images.squarespace-cdn.com/content/v1/64cd66ddbb256e239c8d4833/1691893846628-72JP2MCCUOWE291595P7/Beautiful+Reports+Hero.png',
+    thumbnail: '/images/projects/dataviz-hero.png',
+    heroImage: '/images/projects/dataviz-hero.png',
     date: 'July 10, 2020',
     role: 'Visual Designer, Developer',
     tools: 'Adobe Illustrator, SAS Visual Analytics, Git, HTML, CSS, JavaScript',

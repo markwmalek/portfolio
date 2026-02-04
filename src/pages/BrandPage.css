@@ -1,30 +1,33 @@
-.projects {
+.brand-page {
   padding: var(--space-4xl) 0;
+  min-height: calc(100vh - 56px);
 }
 
-.projects-header {
+.brand-header {
   margin-bottom: var(--space-3xl);
 }
 
-.projects-title {
+.brand-title {
   font-size: clamp(2rem, 5vw, 2.75rem);
   font-weight: 600;
   margin-bottom: 0.75rem;
   letter-spacing: -0.02em;
 }
 
-.projects-subtitle {
+.brand-subtitle {
   font-size: 1.0625rem;
   color: var(--color-text-muted);
+  max-width: 540px;
+  line-height: 1.6;
 }
 
-.projects-grid {
+.brand-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-xl);
 }
 
-.project-card {
+.brand-card {
   display: block;
   text-decoration: none;
   color: inherit;
@@ -35,31 +38,31 @@
   transition: all var(--transition);
 }
 
-.project-card:hover {
+.brand-card:hover {
   transform: translateY(-4px);
   border-color: var(--color-primary);
   box-shadow: var(--shadow-accent);
 }
 
-.project-image-wrapper {
+.brand-card-image-wrapper {
   position: relative;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background-color: var(--color-surface);
 }
 
-.project-image {
+.brand-card-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition-slow);
 }
 
-.project-card:hover .project-image {
+.brand-card:hover .brand-card-image {
   transform: scale(1.04);
 }
 
-.project-overlay {
+.brand-card-overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(
@@ -76,44 +79,43 @@
   transition: opacity var(--transition);
 }
 
-.project-card:hover .project-overlay {
+.brand-card:hover .brand-card-overlay {
   opacity: 1;
 }
 
-.project-view {
+.brand-card-view {
   font-size: 0.8125rem;
   font-weight: 500;
   padding: 0.5rem 1.25rem;
   border-radius: var(--radius-sm);
   background: var(--color-bg);
   color: var(--color-text);
-  transition: all var(--transition);
   box-shadow: var(--shadow-md);
 }
 
-.project-info {
+.brand-card-info {
   padding: var(--space-lg);
 }
 
-.project-name {
+.brand-card-name {
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: var(--space-xs);
   line-height: 1.4;
 }
 
-.project-category {
+.brand-card-category {
   font-size: 0.8125rem;
   color: var(--color-text-muted);
 }
 
 @media (max-width: 768px) {
-  .projects-grid {
+  .brand-grid {
     grid-template-columns: 1fr;
     gap: var(--space-lg);
   }
 
-  .projects {
+  .brand-page {
     padding: var(--space-3xl) 0;
   }
 }

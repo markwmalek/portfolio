@@ -1,0 +1,62 @@
+.art-page {
+  padding: var(--space-4xl) 0;
+  min-height: calc(100vh - 56px);
+}
+
+.art-header {
+  margin-bottom: var(--space-3xl);
+}
+
+.art-title {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.art-subtitle {
+  font-size: 1.0625rem;
+  color: var(--color-text-muted);
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.art-contact-link {
+  color: var(--color-text);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 2px;
+  transition: text-decoration-color var(--transition-fast);
+}
+
+.art-contact-link:hover {
+  text-decoration-color: var(--color-text);
+}
+
+/* CSS Columns masonry layout */
+.art-gallery {
+  columns: 3;
+  column-gap: var(--space-lg);
+}
+
+.art-gallery > * {
+  break-inside: avoid;
+  margin-bottom: var(--space-lg);
+}
+
+@media (max-width: 900px) {
+  .art-gallery {
+    columns: 2;
+  }
+}
+
+@media (max-width: 540px) {
+  .art-gallery {
+    columns: 1;
+  }
+
+  .art-page {
+    padding: var(--space-3xl) 0;
+  }
+}
