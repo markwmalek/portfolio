@@ -37,6 +37,7 @@ function ArtCard({ artwork, onClick }) {
       </div>
       <div className="art-card-info">
         <h3 className="art-card-title">{artwork.title}</h3>
+        {artwork.dimensions && <span className="art-card-dimensions">{artwork.dimensions}</span>}
         <div className="art-card-meta">
           <span className="art-card-price">${artwork.price.toLocaleString()}</span>
           {!isSold ? (

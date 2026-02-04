@@ -62,20 +62,22 @@ function ArtPage() {
     <section className="art-page">
       <div className="container">
         <div className="art-header">
-          <h1 className="art-title"><WeightedText text="Art" /></h1>
-          <p className="art-subtitle">
-            Original works available for purchase.
-            Interested in a piece?{' '}
-            <a
-              href={`mailto:${CONTACT_EMAIL}?subject=Art%20Inquiry`}
-              className="art-contact-link"
-            >
-              Get in touch
-            </a>
-            .
-          </p>
-          <div className="art-resources">
-            <a href="https://www.instagram.com/markwilsonmalek/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Instagram</a>
+          <div className="art-header-top">
+            <div className="art-header-text">
+              <h1 className="art-title"><WeightedText text="Art" /></h1>
+              <p className="art-subtitle">
+                Original works available for purchase.
+                Interested in a piece?{' '}
+                <a
+                  href={`mailto:${CONTACT_EMAIL}?subject=Art%20Inquiry`}
+                  className="art-contact-link"
+                >
+                  Get in touch
+                </a>
+                .
+              </p>
+            </div>
+            <a href="https://www.instagram.com/markwilsonmalek/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Follow on Instagram</a>
           </div>
         </div>
 

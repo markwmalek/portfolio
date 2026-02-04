@@ -19,6 +19,13 @@
   margin-bottom: var(--space-3xl);
 }
 
+.art-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-lg);
+}
+
 .art-title {
   font-size: clamp(2rem, 5vw, 2.75rem);
   font-weight: 800;
@@ -33,11 +40,9 @@
   line-height: 1.6;
 }
 
-.art-resources {
-  display: flex;
-  gap: var(--space-sm);
-  margin-top: var(--space-lg);
-  flex-wrap: wrap;
+.art-header-top > .btn {
+  flex-shrink: 0;
+  margin-top: 0.5rem;
 }
 
 /* Accordions */
@@ -180,5 +185,9 @@
 
   .art-page {
     padding: var(--space-3xl) 0;
+  }
+
+  .art-header-top {
+    flex-direction: column;
   }
 }

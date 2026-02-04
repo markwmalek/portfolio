@@ -2,8 +2,25 @@ export const CONTACT_EMAIL = 'markwilsonmalek@gmail.com';
 
 export const artworks = [
   {
+    id: 16,
+    title: 'Thinking',
+    dimensions: '18"x24"',
+    image: '/images/art/thinking-1.jpg',
+    price: 200,
+    status: 'available',
+  },
+  {
+    id: 17,
+    title: 'Thinking (detail)',
+    dimensions: '18"x24"',
+    image: '/images/art/thinking-2.jpg',
+    price: 200,
+    status: 'available',
+  },
+  {
     id: 1,
-    title: '🪡',
+    title: '\u{1FAA1}',
+    dimensions: '12"x12"',
     image: '/images/art/art-01.jpeg',
     price: 150,
     status: 'available',
@@ -11,6 +28,7 @@ export const artworks = [
   {
     id: 2,
     title: 'All the same',
+    dimensions: '30"x40"',
     image: '/images/art/art-02.jpeg',
     price: 800,
     status: 'available',
@@ -18,6 +36,7 @@ export const artworks = [
   {
     id: 3,
     title: 'Sunday afternoon',
+    dimensions: '18"x24"',
     image: '/images/art/art-03.jpeg',
     price: 300,
     status: 'available',
@@ -25,6 +44,7 @@ export const artworks = [
   {
     id: 4,
     title: 'Thinker I',
+    dimensions: '36"x26"',
     image: '/images/art/art-04.jpg',
     price: 300,
     status: 'available',
@@ -32,6 +52,7 @@ export const artworks = [
   {
     id: 5,
     title: 'Small man I',
+    dimensions: '5"x7"',
     image: '/images/art/art-05.jpeg',
     price: 125,
     status: 'sold',
@@ -39,6 +60,7 @@ export const artworks = [
   {
     id: 6,
     title: 'Charcoal Sculpture I',
+    dimensions: '8"x10"',
     image: '/images/art/art-06.jpeg',
     price: 225,
     status: 'sold',
@@ -46,6 +68,7 @@ export const artworks = [
   {
     id: 7,
     title: 'David',
+    dimensions: '48"x60"',
     image: '/images/art/art-07.jpeg',
     price: 800,
     status: 'sold',
@@ -53,6 +76,7 @@ export const artworks = [
   {
     id: 8,
     title: 'Lost boy',
+    dimensions: '24"x48"',
     image: '/images/art/art-08.jpeg',
     price: 1000,
     status: 'available',
@@ -60,6 +84,7 @@ export const artworks = [
   {
     id: 9,
     title: "You're just a man",
+    dimensions: '18"x24"',
     image: '/images/art/art-09.jpeg',
     price: 300,
     status: 'sold',
@@ -67,6 +92,7 @@ export const artworks = [
   {
     id: 10,
     title: "You'll smoke me out",
+    dimensions: '36"x48"',
     image: '/images/art/art-10.jpeg',
     price: 1500,
     status: 'available',
@@ -74,6 +100,7 @@ export const artworks = [
   {
     id: 11,
     title: 'Lost in the Feeling',
+    dimensions: '48"x60"',
     image: '/images/art/art-11.jpeg',
     price: 2500,
     status: 'available',
@@ -81,6 +108,7 @@ export const artworks = [
   {
     id: 12,
     title: 'I know you find it funny',
+    dimensions: '18"x24"',
     image: '/images/art/art-12.jpeg',
     price: 225,
     status: 'available',
@@ -88,6 +116,7 @@ export const artworks = [
   {
     id: 13,
     title: 'If now was then',
+    dimensions: '9"x12"',
     image: '/images/art/art-13.jpeg',
     price: 150,
     status: 'available',
@@ -95,6 +124,7 @@ export const artworks = [
   {
     id: 14,
     title: 'BLAH',
+    dimensions: '48"x48"',
     image: '/images/art/art-14.jpeg',
     price: 550,
     status: 'available',
@@ -102,6 +132,7 @@ export const artworks = [
   {
     id: 15,
     title: 'Slash',
+    dimensions: '48"x48"',
     image: '/images/art/art-15.jpeg',
     price: 400,
     status: 'available',
