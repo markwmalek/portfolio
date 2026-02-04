@@ -82,16 +82,16 @@ function ArtPage() {
         </div>
 
         <div className="art-accordions">
-          <Accordion title="Bio">
-            <p>Mark Wilson Malek is a Durham-based visual artist whose work explores masculinity through the lens of vulnerability and intimacy. Working primarily in monochromatic tones—charcoal, ink, acrylic paint, oil pastels, and embroidery—Malek renders the male figure in moments of solitude, introspection, and unguarded intimacy. These are bodies at rest, in thought, in private spaces where the armor of performance falls away.</p>
-            <p>Malek earned his Bachelor of Graphic Design from NC State University in 2015. Since then, he has exhibited throughout the Triangle region, including solo and group exhibitions at the Durham Art Guild, Keel and Company in Raleigh, and numerous curated shows. His work spans multiple media, from gestural paintings to delicate line work and textile arts, each piece an invitation to sit with vulnerability and find beauty in it.</p>
-            <p>Beyond his studio practice, Malek is the Creative Director and Curator of Weird Productions, an unconventional art event series in Durham that has presented themed exhibitions including Dollyweird, Prints-4-Prince, Tangled Up in Blue, and Black Velvet. Through Weird Productions, he creates immersive art experiences that blend visual art with food, music, and community, fostering engagement with emerging and established artists in unexpected ways.</p>
-            <p>Malek is a member of the Durham Art Guild. His practice is an ongoing investigation of intimacy—with the self, with the body, with the quiet moments we rarely show others. Each piece invites viewers to recognize vulnerability and discover the profound beauty within it.</p>
+          <Accordion title="Artist Bio">
+            <p>Mark Wilson Malek is a visual artist based in Durham, North Carolina. Working in charcoal, ink, acrylic, oil pastels, and embroidery, he renders the male figure in moments of solitude, introspection, and quiet vulnerability.</p>
+            <p>He holds a BFA in Graphic Design from NC State University and has exhibited throughout the Triangle, including at the Durham Art Guild and Keel and Company in Raleigh.</p>
+            <p>Malek is also the Creative Director of Weird Productions, a Durham art event series known for themed exhibitions like Dollyweird, Prints-4-Prince, Tangled Up in Blue, and Black Velvet.</p>
           </Accordion>
 
           <Accordion title="Artist Statement">
-            <p>The other day I found myself tearing up in my therapist's office. I wasn't prepared to express vulnerability in that way. I immediately clammed up, my arms folded across my chest in a desperate attempt to remain in control. In that moment, it became clear that fear has been the constant hum in my life—a fearful child experiencing punishment when he needed help, becoming a teenager wrestling with his sexuality and the weight of scripture, into an adult terrified of abandonment from both God and those he tries to trust. My work begins in that fear. Working primarily in monochromatic tones—charcoal, ink, paint, oil pastels, embroidery—I render the male figure in moments when the fear attempts to become acceptance: bodies at rest, contemplating, withdrawing. Drawing inspiration from artists like Egon Schiele, I'm interested in the raw honesty of the figure stripped of pretense.</p>
-            <p>The monochrome palette is both irony and acceptance. These limited tones strip away distraction, leaving only light, shadow, and the complexity of form. There's a tenderness in this reduction, a softness that runs counter to everything I was taught about being a man, about being right with God, about being worthy of love. My figures recline with reference to classical sculpture and dissolve into their expressionistic forms. Some feel caught between reverence and rawness, between fine art and something more immediate. This is my investigation of uncertainty and loss of control: with the self, with the body, with the quiet moments we rarely show others.</p>
+            <p>I found myself tearing up in my therapist's office. My arms folded across my chest, a reflex to stay in control. In that moment I realized fear has been the constant hum of my life: a child punished when he needed help, a teenager wrestling with sexuality and scripture, an adult terrified of abandonment.</p>
+            <p>My work starts there. In charcoal, ink, paint, and oil pastels, I render the male figure in moments when fear tries to become acceptance. Bodies at rest, contemplating, withdrawing. I'm drawn to the raw honesty of the figure stripped bare.</p>
+            <p>The monochrome palette strips away distraction, leaving light, shadow, and form. There's a tenderness in this reduction that runs counter to everything I was taught about being a man, about being worthy of love. This is my investigation of uncertainty and loss of control: with the self, with the body, with the quiet moments we rarely show others.</p>
           </Accordion>
 
           <Accordion title="CV">
@@ -140,7 +140,7 @@ function ArtPage() {
           </Accordion>
         </div>
         <div className="art-gallery">
-          {artworks.map((artwork) => (
+          {[...artworks].sort((a, b) => (a.status === 'sold') - (b.status === 'sold')).map((artwork) => (
             <ArtCard
               key={artwork.id}
               artwork={artwork}
