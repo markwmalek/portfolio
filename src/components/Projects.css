@@ -8,7 +8,6 @@
 
 .projects-title {
   font-size: clamp(2rem, 5vw, 2.75rem);
-  font-weight: 600;
   margin-bottom: 0.75rem;
   letter-spacing: -0.02em;
 }

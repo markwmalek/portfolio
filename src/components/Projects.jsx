@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { projects } from '../data/projects';
+import WeightedText from './WeightedText';
 import './Projects.css';
 
 function Projects() {
@@ -7,7 +8,7 @@ function Projects() {
     <section className="projects" id="projects">
       <div className="container">
         <div className="projects-header">
-          <h2 className="projects-title">Selected Work</h2>
+          <h2 className="projects-title"><WeightedText text="Selected Work" /></h2>
           <p className="projects-subtitle">
             A collection of projects I've worked on recently
           </p>

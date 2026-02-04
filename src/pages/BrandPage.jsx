@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { brandProjects } from '../data/brandProjects';
+import WeightedText from '../components/WeightedText';
 import './BrandPage.css';
 
 function BrandPage() {
@@ -7,7 +8,7 @@ function BrandPage() {
     <section className="brand-page">
       <div className="container">
         <div className="brand-header">
-          <h1 className="brand-title">Brand Design</h1>
+          <h1 className="brand-title"><WeightedText text="Brand Design" /></h1>
           <p className="brand-subtitle">
             Identity systems, illustrations, and visual storytelling for startups, festivals, and enterprises.
           </p>

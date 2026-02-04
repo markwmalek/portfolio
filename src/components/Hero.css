@@ -7,6 +7,10 @@
   overflow: hidden;
 }
 
+.hero .container {
+  width: 100%;
+}
+
 .hero-glow {
   position: absolute;
   top: -30%;
@@ -59,9 +63,6 @@
   letter-spacing: -0.03em;
 }
 
-.hero-name-accent {
-  color: var(--color-text-muted);
-}
 
 .hero-title {
   font-size: clamp(1.25rem, 3vw, 1.5rem);

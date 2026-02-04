@@ -1,6 +1,18 @@
 .art-page {
   padding: var(--space-4xl) 0;
   min-height: calc(100vh - 56px);
+  position: relative;
+}
+
+.art-page::before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  right: -100px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(61, 56, 49, 0.06) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .art-header {
@@ -9,7 +21,7 @@
 
 .art-title {
   font-size: clamp(2rem, 5vw, 2.75rem);
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 0.75rem;
   letter-spacing: -0.02em;
 }

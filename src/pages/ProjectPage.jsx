@@ -1,5 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { getProjectBySlug, getAdjacentProjects } from '../data/projects';
+import WeightedText from '../components/WeightedText';
 import './ProjectPage.css';
 
 function ProjectPage() {
@@ -23,7 +24,7 @@ function ProjectPage() {
           </Link>
           <div className="project-hero-content">
             <p className="project-category-label">{project.category}</p>
-            <h1 className="project-title">{project.title}</h1>
+            <h1 className="project-title"><WeightedText text={project.title} /></h1>
             <p className="project-summary">{project.summary}</p>
           </div>
         </div>
@@ -81,7 +82,7 @@ function ProjectPage() {
             if (section.type === 'text') {
               return (
                 <div key={index} className="content-section">
-                  <h2 className="section-title">{section.title}</h2>
+                  <h2 className="section-title"><WeightedText text={section.title} /></h2>
                   <p className="section-text">{section.content}</p>
                 </div>
               );

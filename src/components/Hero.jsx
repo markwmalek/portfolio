@@ -1,3 +1,4 @@
+import WeightedText from './WeightedText';
 import './Hero.css';
 
 function Hero() {
@@ -7,8 +8,7 @@ function Hero() {
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-name">
-            Mark Wilson<br />
-            <span className="hero-name-accent">Malek</span>
+            <WeightedText text="Mark Wilson Malek" breakAfter={1} />
           </h1>
           <p className="hero-title">Product Designer</p>
           <p className="hero-description">

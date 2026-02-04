@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { artworks, CONTACT_EMAIL } from '../data/artworks';
 import ArtCard from '../components/ArtCard';
 import Lightbox from '../components/Lightbox';
+import WeightedText from '../components/WeightedText';
 import './ArtPage.css';
 
 function ArtPage() {
@@ -11,7 +12,7 @@ function ArtPage() {
     <section className="art-page">
       <div className="container">
         <div className="art-header">
-          <h1 className="art-title">Art</h1>
+          <h1 className="art-title"><WeightedText text="Art" /></h1>
           <p className="art-subtitle">
             Original works available for purchase.
             Interested in a piece?{' '}

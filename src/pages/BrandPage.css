@@ -1,6 +1,18 @@
 .brand-page {
   padding: var(--space-4xl) 0;
   min-height: calc(100vh - 56px);
+  position: relative;
+}
+
+.brand-page::before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  right: -100px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(61, 56, 49, 0.06) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .brand-header {
