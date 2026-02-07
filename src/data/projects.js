@@ -133,8 +133,8 @@ export const projects = [
     slug: 'sas-developer-portal',
     title: 'SAS Developer Portal',
     category: 'Web Design',
-    thumbnail: '/images/projects/dev-portal-thumb.png',
-    heroImage: '/images/projects/dev-portal-hero.png',
+    thumbnail: '/images/projects/Dev Portal Hero.png',
+    heroImage: '/images/projects/Dev Portal Hero.png',
     date: 'March 10, 2022',
     role: 'Visual Designer',
     collaborators: 'Cheryl Coyle (UX Designer)',
@@ -148,7 +148,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: '/images/projects/dev-portal-homepage.png',
+        url: '/images/projects/Dev Portal 01.png',
         alt: 'Developer Portal homepage'
       },
       {
@@ -158,7 +158,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: '/images/projects/dev-portal-api.png',
+        url: '/images/projects/Dev Portal 02.png',
         alt: 'API documentation page'
       },
       {
@@ -168,7 +168,7 @@ export const projects = [
       },
       {
         type: 'image',
-        url: '/images/projects/dev-portal-tutorials.png',
+        url: '/images/projects/Dev Portal 03.png',
         alt: 'Tutorials section'
       },
       {
@@ -178,18 +178,8 @@ export const projects = [
       },
       {
         type: 'image',
-        url: '/images/projects/dev-portal-mockup1.png',
+        url: '/images/projects/Dev Portal 04.png',
         alt: 'Developer Portal design mockup'
-      },
-      {
-        type: 'image',
-        url: '/images/projects/dev-portal-mockup2.png',
-        alt: 'Code examples section'
-      },
-      {
-        type: 'image',
-        url: '/images/projects/dev-portal-mockup3.png',
-        alt: 'SDK documentation'
       }
     ]
   },

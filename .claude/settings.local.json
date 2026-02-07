@@ -6,7 +6,12 @@
       "Bash(git push:*)",
       "Bash(npm run build:*)",
       "WebFetch(domain:terrier-rhubarb-m892.squarespace.com)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Brand/Art sections, NavBar, and self-host all images\n\n- Add sticky NavBar with Product, Brand, and Art links\n- Add Art gallery page with masonry layout, lightbox, and inquiry flow\n- Add Brand Design section with 6 project detail pages\n- Download all images from Squarespace CDN to public/images/\n- Update data files to use local image paths\n- Switch color palette to warm neutral greys\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git config:*)",
+      "Bash(git commit:*)",
+      "WebFetch(domain:markwilsonmalek.com)",
+      "Bash(ls:*)"
     ]
   }
 }
